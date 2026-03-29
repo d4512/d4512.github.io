@@ -1,4 +1,11 @@
 /* Reset */
+:root {
+  --primary: #2a5298;
+  --bg: #f2f4f8;
+  --text: #333;
+}
+
+
 * {
   margin: 0;
   padding: 0;
