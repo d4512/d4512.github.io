@@ -25,6 +25,10 @@ header {
   color: #fff;
 }
 
+.lang-switch a.active {
+  text-decoration: underline;
+}
+
 /* Navigation */
 nav {
   background: #fff;
