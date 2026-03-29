@@ -1,1 +1,24 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Base typography */
+body {
+  font: 16px/1.6 "Segoe UI", sans-serif;
+  background: #f2f4f8;
+  color: #333;
+}
+
+/* Lists */
+ol {
+  margin-left: 2rem;
+  padding-left: 1rem;
+}
+
+ol li {
+  list-style-type: decimal;
+  margin-bottom: 6px;
+}
