@@ -1,1 +1,32 @@
-This is my home-page <a href=side.html> link</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Fallback redirect (works without JS) -->
+  <meta http-equiv="refresh" content="3; url=/en/">
+
+  <title>Redirecting...</title>
+
+  <script>
+    var lang = navigator.language || navigator.userLanguage;
+
+    if (lang.startsWith('bn')) {
+      window.location.href = "/bn/";
+    } else {
+      window.location.href = "/en/";
+    }
+  </script>
+</head>
+
+<body>
+  <h2>Select Language</h2>
+
+  <p>If you are not redirected automatically:</p>
+
+  <ul>
+    <li><a href="/en/">English</a></li>
+    <li><a href="/bn/">বাংলা</a></li>
+  </ul>
+</body>
+</html>
