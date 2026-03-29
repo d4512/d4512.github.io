@@ -30,25 +30,25 @@ header {
 }
 
 /* Navigation */
-nav {
+.navbar {
   background: #fff;
   box-shadow: 0 3px 10px rgba(0,0,0,.08);
 }
 
-nav ul {
+.navbar ul {
   list-style: none;
   text-align: center;
   padding: 1rem;
 }
 
-nav a {
+.navbar a {
   text-decoration: none;
   font-weight: 600;
   color: #333;
   transition: .3s;
 }
 
-nav a:hover {
+.navbar a:hover {
   color: #2a5298;
 }
 
