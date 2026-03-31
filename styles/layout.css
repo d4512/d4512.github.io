@@ -69,9 +69,17 @@ header {
 }
 
 /* Footer */
-footer {
+/*footer {
   background: #1a1a1a;
   color: #ddd;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  font-size: .9rem;
+}*/
+footer {
+  background: var(--header-footer-bg);
+  color: var(--header-footer-text);
   text-align: center;
   padding: 1.2rem;
   margin-top: 2rem;
